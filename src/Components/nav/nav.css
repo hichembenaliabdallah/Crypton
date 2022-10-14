@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.logo {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: rgb(27, 27, 27);
+}
+
+.logo:hover {
+    color: rgb(197, 65, 65);
+}
+  .navbar a.active .navlink::after{
+   width: 100%;
+    
+}
+
+.logo,
+.news {
+    transition: color 370ms;
+}
+
+
+.navbar {
+    
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 9vh;
+}
+
+ul .navlink {
+    height: 20px;
+    color: rgb(47, 47, 47);
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    list-style: none;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.navlinks {
+    height: 9vh;
+    width: 40%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+.news {
+    color: whitesmoke
+}
+
+span {
+    height: 30%;
+}
+
+.dropdown {
+    font-family: "roboto";
+    position: relative;
+}
+
+.dropmenu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 27px;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    height: 200px;
+    width: 160px;
+    top: calc(100% + .5rem);
+    padding: 10px;
+    right: -5px;
+    border-radius: 10px;
+    opacity: 0;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, .1);
+}
+
+.dropdown.active .dropmenu {
+    opacity: 1;
+}
+
+.dropdown a {
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    display: flex;
+    color: black;
+}
+.user-log{
+height: 100%;
+width: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5px;
+margin-right: 1rem;
+}
+.button1, .button2{    font-family: "Roboto";
+    cursor: pointer;
+color: azure;
+font-weight: 500;
+height: 70%;
+background-color: rgb(195, 61, 41);
+border: none;
+width: 80px;
+border-radius: 22px;
+}
+.button1{
+    background-color: rgb(24, 24, 24);
+}
+.button2{
+    background-color: rgb(197, 65, 65);
+}
+.navlink::after{
+
+    content: "";
+    position: absolute;
+    background-color:rgb(56, 56, 56);
+    bottom: -1px;
+    width: 0%;
+    left:0;
+    overflow-x: hidden;
+    height: 1.6px;
+    transition: width 345ms;
+}
+
+.navlink:hover::after{
+    width: 100%;
+
+}
+

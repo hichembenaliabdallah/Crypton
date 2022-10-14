@@ -1,0 +1,48 @@
+.parent{
+    margin-left: 3rem;
+    position: relative;
+width: 77vw;
+height: 50vh;
+display: flex;
+flex-direction: row;
+gap: 50px;
+justify-content: center;
+align-items: flex-start;
+}
+
+body{
+    
+    height: 200vh;
+    width: 100%;
+    
+    background-color: black;
+}
+
+
+.image{
+    position: absolute;
+    top: 0;
+    left: 0;
+object-fit:cover;
+width: 60%;
+height: 100%;
+}
+
+
+.theGreat{
+    align-items: flex-start;
+    
+    position: absolute;
+    top: 400px;
+    display: flex;
+   flex-direction: column;
+   gap: 6rem;
+height: auto;
+width: 100%;
+
+
+}
+
+.theone{
+    color: aliceblue;
+}
