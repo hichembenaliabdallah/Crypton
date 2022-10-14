@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&family=Roboto:wght@300;400;500&display=swap');
+*{
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+html{
+    
+    scrollbar-color: rgb(39, 39, 39) rgb(255, 255, 255);
+    scrollbar-width: thin;
+}
+body{
+   
+    
+    background-color: rgb(255, 255, 255) ;
+}
+.first{
+    
+height: 91vh;
+width: 100%;
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+.content p{
+    padding-left: 2rem;
+}
+.content p span{
+    font-weight: 500;
+    color: black;
+}
+.showroom .content{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.content p{
+    color: rgb(158, 158, 158);
+}
+.content h1{
+    padding-left: 2rem;
+    font-size: 51px;
+    line-height: 4rem;
+    text-align-last: initial;
+}
+
+.metro{
+    font-family: "Roboto",sans-serif;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#speed{
+    cursor: pointer;
+}
+.metro h1{
+    cursor: default;
+}
+
+
+
+
+/* html::-webkit-scrollbar{
+    width: 1vw;
+
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: rgb(39, 39, 39);
+    border-radius: 1rem;
+    border: solid 3px rgb(255, 255, 255);
+}
+html::-webkit-scrollbar-track{
+    background-color: rgb(55, 55, 55);
+} */
+
+.second{
+ position: absolute;
+
+    font-family: "Roboto",sans-serif;
+    height: 100vh;
+    width: 100%;
+   
+}
+
+
+
+
+
+#root{
+    font-family: "Roboto",sans-serif;   
+}
+
+.control{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.crypto-button{
+    margin-top: 5px;
+    font-family: "Roboto";
+    height: 30px;
+    width: 90px;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    border: solid black 3px;
+
+}
+
+
+
+
